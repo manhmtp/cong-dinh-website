@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Phone, Menu, X, Droplets } from 'lucide-react';
+import { Phone, Menu, X } from 'lucide-react';
 import { COMPANY_INFO } from '../constants/company';
 
 interface HeaderProps {
@@ -22,11 +22,13 @@ export const Header: React.FC<HeaderProps> = ({ onAdminClick }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           
-          {/* Logo Brand */}
+          {/* Logo Brand CD */}
           <a href="#hero" className="flex items-center gap-3 group">
-            <div className="w-11 h-11 bg-red-700 text-white flex items-center justify-center rounded-xl shadow-md group-hover:bg-red-800 transition">
-              <Droplets className="w-6 h-6" />
-            </div>
+            <img 
+              src="/images/logo.png" 
+              alt="Logo Cửa hàng Công Định" 
+              className="h-11 sm:h-12 w-auto object-contain"
+            />
             <div>
               <span className="text-2xl font-black tracking-tight text-red-700 block leading-none">
                 {COMPANY_INFO.brandName}

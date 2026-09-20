@@ -1,6 +1,5 @@
 import React from 'react';
 import { COMPANY_INFO } from '../constants/company';
-import { Droplets } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   return (
@@ -10,9 +9,11 @@ export const Footer: React.FC = () => {
           
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-8 h-8 bg-red-700 text-white flex items-center justify-center rounded-lg">
-                <Droplets className="w-5 h-5" />
-              </div>
+              <img 
+                src="/images/logo.png" 
+                alt="Logo Công Định" 
+                className="h-9 w-auto object-contain"
+              />
               <span className="text-xl font-black text-white">{COMPANY_INFO.brandName}</span>
             </div>
             <p className="text-xs text-slate-400 leading-relaxed mb-2">{COMPANY_INFO.displayName}</p>
@@ -40,7 +41,7 @@ export const Footer: React.FC = () => {
         </div>
 
         <div className="border-t border-slate-800 pt-8 text-center text-xs text-slate-500">
-          <p>© {new Date().getFullYear()} {COMPANY_INFO.displayName}. Bản quyền thuộc về Công Định.</p>
+          <p>© {new Date().getFullYear()} {COMPANY_INFO.displayName}. Bản quyền thuộc về CÔNG ĐỊNH.</p>
         </div>
       </div>
     </footer>

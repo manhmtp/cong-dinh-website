@@ -86,7 +86,7 @@ export const ContactSection: React.FC = () => {
           <div className="h-full min-h-[400px] bg-gray-200 rounded-2xl overflow-hidden border border-gray-300 shadow-sm relative">
             <iframe
               title="Vị trí cửa hàng Công Định trên Google Maps"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3892.428458920198!2d108.528458!3d12.750123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDQ1JzAwLjQiTiAxMDjCsDMxJzIyLjQiRQ!5e0!3m2!1svi!2s!4v1700000000000!5m2!1svi!2s"
+              src="https://maps.google.com/maps?q=Ống+nước+CÔNG+ĐỊNH,+21+Quang+Trung,+Ea+Kar,+Đắk+Lắk&hl=vi&z=17&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: '420px' }}
