@@ -1,6 +1,6 @@
 import React from 'react';
 import { COMPANY_INFO } from '../constants/company';
-import { MapPin, CheckCircle2 } from 'lucide-react';
+import { MapPin } from 'lucide-react';
 
 export const About: React.FC = () => {
   return (

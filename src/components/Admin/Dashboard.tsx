@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { supabase } from '../../lib/supabase';
 import type { Product } from '../../types';
 import { COMPANY_INFO } from '../../constants/company';
-import { Plus, Edit, Trash2, Eye, EyeOff, LogOut, Upload, Image as ImageIcon, ArrowLeft } from 'lucide-react';
+import { Plus, Edit, Trash2, Eye, EyeOff, LogOut, Upload, ArrowLeft } from 'lucide-react';
 
 interface DashboardProps {
   onLogout: () => void;
